@@ -4,34 +4,30 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>HTML Reference</title>
-    <!-- no styles right now
-      <link href="styles.css" rel="stylesheet" type="text/css" />
-    -->
+    <link href="styles.css" rel="stylesheet" type="text/css"
+</head>  
 <style>
-table, th, td {
+  table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
-}
-th, td {
-    padding: 5px;
-    text-align: left;
-}
+  }
+    th, td {
+      padding: 5px;
+      text-align: left;
+  }
 </style>
-</head>
 
 <body>
 
-    <a href="https://maryampearson.github.io/index.html">Back To Home Page</a>
-    
-<table style="width:100%">
-  <caption>Reference Table</caption>
-  <tr>
+<table class="tablestyle">
+  <caption class="mytablestyle">Reference Table</caption>
+  <tr class="myreftablebgstyle">
     <th>Name</th>
     <th>Start Tag</th>
     <th>End Tag</th>
     <th>Example</th>
   </tr>
-  <tr>
+  <tr class="headingstyle">
     <td><a href="#heading">heading</a></td>
     <td>&lt;h1&gt;</td>
     <td>&lt;/h1&gt;</td>
@@ -65,7 +61,7 @@ th, td {
     <td><a href="#comments">Comments</a></td>
     <td>&lt;!.. </td>
     <td> ..&gt; </td>
-    <td> &lt;!.. title..&gt;</td>
+    <td> &lt;!.. title.. &gt;</td>
   </tr>
   <tr>
     <td><a href="#lines">Lines</a></td>
@@ -118,20 +114,19 @@ th, td {
   
 </table>
 
-   
-    <h1>HTML Reference Page</h1>
-
+    <h1 class="myhtmlrefstyle">HTML Reference Page</h1>
     <hr>
-
     <h2 id="heading">Heading</h2>
-    <h3>Description</h3>
-    <p>Headings are in the headings to index the structure and content of your web pages. Users skim your pages by its headings. It is important to use headings to show the document structure</p>
+    <div class="descriptionstyle">
+      <h3>Description</h3>
+    </div>
+      <p>Headings are in the headings to index the structure and content of your web pages. Users skim your pages by its headings. It is important to use headings to show the document structure</p>
     <h3>Syntax</h3>
-    <p>To write a heading above a paragraph or page. You use the tag &lt;h1&gt; to &lt;h6&gt; when your doing the heading. </p>
+      <p>To write a heading above a paragraph or page. You use the tag &lt;h1&gt; to &lt;h6&gt; when your doing the heading. </p>
     <h3>Example</h3>
-    <p>&lt;h1&gt;Heading&lt;/h1&gt;</p>
+      <p>&lt;h1&gt;Heading&lt;/h1&gt;</p>
     <h3>Display</h3>
-    <p>This can nt be displayed because it is embedded into the code and is not shown</p>
+      <p>This can nt be displayed because it is embedded into the code and is not shown</p>
     <h3>W3 Schools Link</h3>
     <a href="  https://www.w3schools.com/html/html_headings.asp">link text</a>
     
@@ -139,94 +134,101 @@ th, td {
 
 
     <h2 id="title">Title</h2>
-    <h3>Description</h3>
+    <div class="descriptionstyle">
+      <h3>Description</h3>
+    </div>
     <p>The title tag is needed in all HTML documents and it defines what the title of the document in the shown website is. It is used inside the heading tag. </p>
     <h3>Syntax</h3>
-    <p>To write a title tag, the start tag is &lt;title&gt; and the end tag is &lt;/title&gt;.</p>
+      <p>To write a title tag, the start tag is &lt;title&gt; and the end tag is &lt;/title&gt;.</p>
     <h3>Example</h3>
-    <p>&lt;tite&gt;; lol &lt;/tite&gt;</p>
+      <p>&lt;tite&gt;; lol &lt;/tite&gt;</p>
     <h3>Display</h3>
-    <p>This can nt be displayed because it is embedded into the code and is not shown</p>
+      <p>This can nt be displayed because it is embedded into the code and is not shown</p>
     <h3>W3 Schools Link</h3>
-    <a href="  https://www.w3schools.com/html/html_headings.asp">link text</a>
+      <a href="  https://www.w3schools.com/html/html_headings.asp">link text</a>
     
     <hr>
 
 
     <h2 id="body">Body</h2>
-    <h3>Description</h3>
+    <div class="descriptionstyle">
+      <h3>Description</h3>
+    </div>
     <p>The body tag makes up the documents body. It has all the contents of the HTML document. It can include images, tables, lists, links, etc. </p>
     <h3>Syntax</h3>
-    <p>To write a body tag, you use &lt;body&gt; in the beginning, and &lt;/body&gt; in the end.</p>
+      <p>To write a body tag, you use &lt;body&gt; in the beginning, and &lt;/body&gt; in the end.</p>
     <h3>Example</h3>
-    <p>&lt;body&gt; Text &lt;/body&gt;</p>
+      <p>&lt;body&gt; Text &lt;/body&gt;</p>
     <h3>Display</h3>
-    <p>This can nt be displayed because it is embedded into the code and is not shown</p>
+      <p>This can nt be displayed because it is embedded into the code and is not shown</p>
     <h3>W3 Schools Link</h3>
-    <a href="  https://www.w3schools.com/tags/tag_body.asp">link text</a>
+      <a href="  https://www.w3schools.com/tags/tag_body.asp">link text</a>
     
     <hr>
 
 
     <h2 id="paragraph">Paragraph</h2>
-    <h3>Description</h3>
+    <div class="descriptionstyle">
+      <h3>Description</h3>
+    </div>
     <p>The paragraph tag is used when you are including somthing long. It is similar to the body, it includes some images, tables, lists, links, etc.</p>
     <h3>Syntax</h3>
-    <p>To write the paragraph tag, you start with &lt;p&gt; and end with &lt;/p&gt;. </p>
+      <p>To write the paragraph tag, you start with &lt;p&gt; and end with &lt;/p&gt;. </p>
     <h3>Example</h3>
-    <p>&lt;p&gt; La la la &lt;/p&gt;</p>
+      <p>&lt;p&gt; La la la &lt;/p&gt;</p>
     <h3>Display</h3>
-    <p><p>
-This paragraph
-contains a lot of spaces
-in the source     code,
-but the    browser 
-ignores it.
-</p>
+      <p>
+        This paragraph
+        contains a lot of spaces
+        in the source     code,
+        but the    browser 
+        ignores it.
+    </p>
     <h3>W3 Schools Link</h3>
-   <a href="  https://www.w3schools.com/html/html_paragraphs.asp">link text</a>
+      <a href="  https://www.w3schools.com/html/html_paragraphs.asp">link text</a>
     
     <hr>
-
 
     <h2 id="comments">Comments</h2>
-    <h3>Description</h3>
-    <p>With the comment tag, you can add little extra comments in your html document.</p>
+    <div class="descriptionstyle">
+      <h3>Description</h3>
+    </div>
+      <p>With the comment tag, you can add little extra comments in your html document.</p>
     <h3>Syntax</h3>
-    <p> To write a comment, you start with "&lt;!-- . and you end it with two dases and &gt;. </p>
+      <p> To write a comment, you start with "&lt;!-- . and you end it with two dases and &gt;. </p>
     <h3>Example</h3>
-    <p>&lt;!.. title..&gt;</p>
+      <p>&lt;!.. title..&gt;</p>
     <h3>Display</h3>
-    <p>This cannot be shown because it is embedded into the code. It cannot be shown</p>
+      <p>This cannot be shown because it is embedded into the code. It cannot be shown</p>
     <h3>W3 Schools Link</h3>
-    <a href="  https://www.w3schools.com/html/html_comments.asp">link text</a>
-    
+      <a href="  https://www.w3schools.com/html/html_comments.asp">link text</a>
     <hr>
-
-
-
+    
     <h2 id="Images">Images</h2>
-    <h3>Description</h3>
-    <p>With the image tag, you are able to insert images into your html page.</p>
+    <div class="descriptionstyle">
+      <h3>Description</h3>
+    </div>
+      <p>With the image tag, you are able to insert images into your  html page.</p>
     <h3>Syntax</h3>
-    <p> To use the image tag, you start and end with the &lt;img src = "link"&gt; </p>
+      <p> To use the image tag, you start and end with the &lt;img src = "link"&gt; </p>
     <h3>Example</h3>
-    <p>&lt;img src="url"&gt;</p>
+      <p>&lt;img src="url"&gt;</p>
     <h3>Display</h3>
-    <img src="pulpitrock.jpg" alt="Mountain View">
+      <img src="pulpitrock.jpg" alt="Mountain View">
     <h3>W3 Schools Link</h3>
-    <a href="  https://www.w3schools.com/html/html_images.asp">link text</a>
+      <a href="  https://www.w3schools.com/html/html_images.asp">link text</a>
     
     <hr>
-
 
     <h2 id="Lists">Lists</h2>
-    <h3>Description</h3>
-    <p>With the list tag, You are able to list out a set of things with the list link.</p>
+    <div class="descriptionstyle">
+      <h3>Description</h3>
+    </div>
+      <p>With the list tag, You are able to list out a set of things with the list link.</p>
     <h3>Syntax</h3>
-    <p> You need to start with &lt;ul&gt; and end with &lt;/ul&gt;. An unordered list starts with the &lt;ul&gt; tag. Each list item starts with the &lt;li&gt; tag.</p>
+      <p> You need to start with &lt;ul&gt; and end with &lt;/ul&gt;. An unordered list starts with the &lt;ul&gt; tag. Each list item starts with the &lt;li&gt; tag.</p>
     <h3>Example</h3>
-    <p>This cannot be shown because it is embedded into the code and cant be shown</p>
+      <p>This cannot be shown because it is embedded into the code and cant be shown</p>
     <h3>Display</h3>
     <ul>
       <li>Coffee</li>
@@ -235,17 +237,16 @@ ignores it.
     </ul>
     <h3>W3 Schools Link</h3>
     <a href="  https://www.w3schools.com/html/html_lists.asp">link text</a>
-    
     <hr>
-
-
     <h2 id="tables">Tables</h2>
-    <h3>Description</h3>
-    <p>You can add a table with multiple columns with the table tag.</p>
+    <div class="descriptionstyle">
+      <h3>Description</h3>
+    </div>
+      <p>You can add a table with multiple columns with the table tag.</p>
     <h3>Syntax</h3>
-    <p> To write the table tag, you start with the &lt;table&gt; style  with the width in quotes. The next line is &lt;tr&gt; and you end with &lt;/tr&gt; </p>
+      <p> To write the table tag, you start with the &lt;table&gt; style  with the width in quotes. The next line is &lt;tr&gt; and you end with &lt;/tr&gt; </p>
     <h3>Example</h3>
-    <p>This cannot be shown because it is embedded into the code and cant be shown</p>
+      <p>This cannot be shown because it is embedded into the code and cant be shown</p>
     <h3>Display</h3>
     
     <table style="width:100%">
@@ -272,101 +273,109 @@ ignores it.
 </table>
 
     <h3>W3 Schools Link</h3>
-    <a href="  https://www.w3schools.com/html/html_tables.asp">link text</a>
+      <a href="  https://www.w3schools.com/html/html_tables.asp">link text</a>
     
     <hr>
 
 
     <h2 id="blocks">Blocks</h2>
-    <h3>Description</h3>
-    <p>HTML elements are in block level elements or inline elementrs. A block level element occupies the entire space of its parent element "block". </p>
+    <div class="descriptionstyle">
+      <h3>Description</h3>
+    </div>
+      <p>HTML elements are in block level elements or inline elementrs. A block level element occupies the entire space of its parent element "block". </p>
     <h3>Syntax</h3>
-    <p>To write a block, you start with &lt;div&gt;and end with &lt;/div&gt;.</p>
+      <p>To write a block, you start with &lt;div&gt;and end with &lt;/div&gt;.</p>
     <h3>Example</h3>
-    <p>&lt;div&gt;Text &lt;/div&gt;</p>
+      <p>&lt;div&gt;Text &lt;/div&gt;</p>
     <h3>Display</h3>
-    <p>This can nt be displayed because it is embedded into the code and is not shown</p>
+      <p>This can nt be displayed because it is embedded into the code and is not shown</p>
     <h3>W3 Schools Link</h3>
-    <a href="  https://www.w3schools.com/html/html_blocks.asp">link text</a>
+      <a href="  https://www.w3schools.com/html/html_blocks.asp">link text</a>
     
     <hr>
 
 
     <h2 id="links">Links</h2>
-    <h3>Description</h3>
-    <p>With the link tag, you are able to add a text linked to another link.</p>
+    <div class=decriptionstylelinks>
+      <h3>Description</h3>
+    </div>
+      <p>With the link tag, you are able to add a text linked to another link.</p>
     <h3>Syntax</h3>
-    <p>To write a link tag, you start with &lt;a href="url" and end with &lt;/a&gt;. </p>
+      <p>To write a link tag, you start with &lt;a href="url" and end with &lt;/a&gt;. </p>
     <h3>Example</h3>
-    <p> &lt;a href="https://www.w3schools.com/html/"&gt; </p>
+      <p> &lt;a href="https://www.w3schools.com/html/"&gt; </p>
     <h3>Display</h3>
-    <p>Cannot be shown; embedded into code</p>
+      <p>Cannot be shown; embedded into code</p>
     <h3>W3 Schools Link</h3>
-    <a href="  https://www.w3schools.com/html/links_headings.asp">link text</a>
+      <a href="  https://www.w3schools.com/html/links_headings.asp">link text</a>
     
     <hr>
 
    
     <h2 id="heads">Heads</h2>
-    <h3>Description</h3>
-    <p>The head element is a container for metadata (data about data) and is placed between both the &lt;html&gt; tag and the &lt;body&gt; tag.</p>
+    <div class="descriptionstyle">
+      <h3>Description</h3>
+    </div>
+      <p>The head element is a container for metadata (data about data) and is placed between both the &lt;html&gt; tag and the &lt;body&gt; tag.</p>
     <h3>Syntax</h3>
-    <p>To write a head above a paragraph or page. You use the tag &lt;head&gt; to start a heading and &lt;/head&gt; followed by it&lt;/head&gt; </p>
+      <p>To write a head above a paragraph or page. You use the tag &lt;head&gt; to start a heading and &lt;/head&gt; followed by it&lt;/head&gt; </p>
     <h3>Example</h3>
-    <p>&lt;head&gt; head elements &lt;/head&gt;</p>
+      <p>&lt;head&gt; head elements &lt;/head&gt;</p>
     <h3>Display</h3>
-    <p>This can nt be displayed because it is embedded into the code and is not shown</p>
+      <p>This can nt be displayed because it is embedded into the code and is not shown</p>
     <h3>W3 Schools Link</h3>
-    <a href="  https://www.w3schools.com/tags/tag_head.asp">link text</a>
+      <a href="  https://www.w3schools.com/tags/tag_head.asp">link text</a>
     
     <hr>
-
-   
 
     <h2 id="lines">Lines</h2>
-    <h3>Description</h3>
-    <p>You can use the line tag to do a thematic change in the content. the &lt;hr&gt; tag to define a thematic change in the content:</p>
+    <div class="descriptionstyle">
+      <h3>Description</h3>
+    </div>
+      <p>You can use the line tag to do a thematic change in the content. the &lt;hr&gt; tag to define a thematic change in the content:</p>
     <h3>Syntax</h3>
-    <p> To use a line tag, you do &lt;hr&gt; in the middle of the text.</p>
+      <p> To use a line tag, you do &lt;hr&gt; in the middle of the text.</p>
     <h3>Example</h3>
-    <p>&lt;hr&gt;n</p>
+      <p>&lt;hr&gt;n</p>
     <h3>Display</h3>
-    <p>This can nt be displayed because it is embedded into the code and is not shown</p>
+      <p>This can nt be displayed because it is embedded into the code and is not shown</p>
     <h3>W3 Schools Link</h3>
-    <a href="  https://www.w3schools.com/tags/tag_hr.asp">link text</a>
-    
+      <a href="  https://www.w3schools.com/tags/tag_hr.asp">link text</a>
+      
     <hr>
 
-  
     <h2 id="breaks">Breaks</h2>
-    <h3>Description</h3>
-    <p>When you use the &lt;br&gt; tag, it inserts a single line break.</p>
+    <div class="descriptionstyle">
+      <h3>Description</h3>
+    </div>
+      <p>When you use the &lt;br&gt; tag, it inserts a single line break.</p>
     <h3>Syntax</h3>
-    <p>All you need to do is put the code &lt;br&gt; in the middle of a sentence to break it</p>
+      <p>All you need to do is put the code &lt;br&gt; in the middle of a sentence to break it</p>
     <h3>Example</h3>
-    <p>&lt;br&gt;</p>
+      <p>&lt;br&gt;</p>
     <h3>Display</h3>
-    <p>This can nt be displayed because it is embedded into the code and is not shown</p>
+      <p>This can nt be displayed because it is embedded into the code and is not shown</p>
     <h3>W3 Schools Link</h3>
-    <a href="  https://www.w3schools.com/tags/tag_br.asp">link text</a>
+      <a href="  https://www.w3schools.com/tags/tag_br.asp">link text</a>
     
     <hr>
 
   
     <h2 id="HTML">HTML</h2>
-    <h3>Description</h3>
-    <p>The html tag tells the browser that it is an HTML doc. The tag itself represents the root of an HTML document.</p>
+    <div class="descriptionstyle">
+      <h3>Description</h3>
+    </div>
+      <p>The html tag tells the browser that it is an HTML doc. The tag itself represents the root of an HTML document.</p>
     <h3>Syntax</h3>
-    <p>To use the html link, you do &lt;html&gt; in the beginning and &lt;/html&gt; in the end of your text. </p>
+      <p>To use the html link, you do &lt;html&gt; in the beginning and &lt;/html&gt; in the end of your text. </p>
     <h3>Example</h3>
     <p>&lt;html&gt; head and body &lt;/html&gt;</p>
     <h3>Display</h3>
-    <p>This can nt be displayed because it is embedded into the code and is not shown</p>
+      <p>This can nt be displayed because it is embedded into the code and is not shown</p>
     <h3>W3 Schools Link</h3>
-    <a href="  https://www.w3schools.com/tags/tag_html.asp">link text</a>
+      <a href="  https://www.w3schools.com/tags/tag_html.asp">link text</a>
     
     <hr>
 
   </body>
 </html>
-
