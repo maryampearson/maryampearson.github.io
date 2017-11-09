@@ -1,0 +1,33 @@
+.mytablestyle {
+  color: olivedrab;
+  font-family:"Arial", arial, Serif;
+  border:5px dashed lightsalmon ;
+  font-size: 30px
+}
+.myhtmlrefstyle {
+  color: maroon;
+  background-color: thistle;
+}
+h2 {
+  color: DarkSeaGreen  ;
+}
+h3 {
+  background-color: thistle;
+  font-family: "Arial", arial, Serif
+  color:maroon;
+}
+.tablestyle {
+   width:100%;
+}
+
+.tablestyle tr {
+  background-color: lightsalmon;
+  font-family:"Arial", arial, Serif
+}
+
+.tablestyle th {
+  background-color: DarkSeaGreen  ;
+}
+p {
+  font-family: "Arial", arial, Serif
+}
