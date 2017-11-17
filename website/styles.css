@@ -22,3 +22,28 @@ img {
 li {
   font-family: "Courier", sans-serif;
 }
+
+th {
+  font-family: "Courier", sans-serif;
+  color:white;
+}
+
+td {
+  color:salmon;
+  font-family: "Courier", sans-serif;
+}
+
+caption {
+  font-family: "Courier", sans-serif;
+  font-size:30px;
+}
+table, th, td {
+    border: 5px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+<table style="width:100%">
